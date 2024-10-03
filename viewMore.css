@@ -1,0 +1,419 @@
+/* ------------ GOOGLE FONTS ------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* ------------ VARIABLES ------------ */
+:root{
+  /* FONT */
+  --font: 'Poppins', sans-serif;
+
+  /* COLORS */
+  --color: #a294e0;
+  --bg-color: #222831;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: var(--font);
+  height: 100vh;
+  width: 100px;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+
+  background-color: var(--bg-color);
+}
+
+.con_member {
+  height: 95%;
+  width: 300%;
+  padding: 60px 10px;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  align-items: center; /* Vertically centers items */
+  flex-wrap: wrap;
+  /*border: 2px solid red; /* Keep for debugging */
+
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-bottom: 0;
+  position: absolute;
+
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 8px; 
+
+
+
+  
+  
+
+  
+}
+.mini_profile {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  border: 2px solid var(--color);
+  padding: 3px;
+  margin-bottom: 2em;
+  justify-items: center;
+  cursor: pointer;
+  
+}
+.mini_profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: bottom;
+  
+
+}
+
+
+.memberimg {
+display: grid;
+align-items: center; 
+justify-content: center;
+grid-template-columns: 1fr 10fr auto 2fr;
+
+
+}
+.member_name h5 {
+  color: white;
+  padding-left: 20px;
+  width: 150px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: 0.3s all ;
+}
+.member_name h5:hover {
+  color: #8c7ae6;
+}
+
+
+/* ajax css */
+.con_ajax {
+
+  right: -20%;
+  position: absolute;
+  top: 10%;
+  transform: translateX(1400px);
+  padding: 30px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 8px; 
+
+  
+}
+
+
+/* Progress bar css */
+
+
+.skill {
+  width: 600px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 30px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  display: none; /* Initially hide the skill section */
+  position: absolute;
+  top: -10px;
+  left: 180%;
+}
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: #353b48;
+  display: block;
+  height: 20px; /* Change this value to increase or decrease the thickness of the bar */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  width: 500px; /* Set a default width for the container bar */
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(129, 62, 255) 0%, rgb(183, 142, 250) 100%);
+  /* Initial width set to 0 */
+}
+
+
+
+.html {
+  width: 70%;
+  animation: html 3s;
+}
+.css {
+  width: 45%;
+  animation: css 3s;
+}
+.bootstrap {
+  width: 5%;
+  animation: bootstrap 3s;
+}
+.php {
+  width: 15%;
+  animation: php 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 5%;
+  }
+}
+@keyframes php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+
+
+/* Second set of skills html2 */
+
+.html2 {
+  width: 40%;
+  animation: html2 3s;
+}
+.css2 {
+  width: 20%;
+  animation: css2 3s;
+}
+.bootstrap2 {
+  width: 5%;
+  animation: bootstrap2 3s;
+}
+.php2 {
+  width: 10%;
+  animation: php2 3s;
+}
+
+@keyframes html2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes css2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes bootstrap2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 5%;
+  }
+}
+@keyframes php2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+/* Third set of skills html3 */
+
+.html3 {
+  width: 40%;
+  animation: html2 3s;
+}
+.css3 {
+  width: 20%;
+  animation: css2 3s;
+}
+.bootstrap3 {
+  width: 10%;
+  animation: bootstrap3 3s;
+}
+.php3 {
+  width: 10%;
+  animation: php2 3s;
+}
+
+@keyframes html3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes css3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes bootstrap3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+@keyframes php3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+/* Fourth set of skills html4 */
+
+.html4 {
+  width: 45%;
+  animation: html4 3s;
+}
+.css4 {
+  width: 20%;
+  animation: css4 3s;
+}
+.bootstrap4 {
+  width: 5%;
+  animation: bootstrap4 3s;
+}
+.php4{
+  width: 10%;
+  animation: php4 3s;
+}
+
+@keyframes html4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+@keyframes css4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes bootstrap4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 5%;
+  }
+}
+@keyframes php4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+/* Fifth set of skills html5 */
+
+.html5 {
+  width: 40%;
+  animation: html5 3s;
+}
+.css5{
+  width: 20%;
+  animation: css5 3s;
+}
+.bootstrap5 {
+  width: 5%;
+  animation: bootstrap5 3s;
+}
+.php5 {
+  width: 10%;
+  animation: php5 3s;
+}
+
+@keyframes html5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes css5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes bootstrap5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 5%;
+  }
+}
+@keyframes php5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+

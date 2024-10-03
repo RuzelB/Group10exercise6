@@ -1,0 +1,47 @@
+<catalog>
+<CD>
+<GROUP>Group 10</GROUP>
+<NAME>Justine Oliva</NAME>
+<POSITION>Developer</POSITION>
+<SEC_YEAR>BSIT-3D</SEC_YEAR>
+<AGE>21</AGE>
+<EMAIL>tine@gmail.com</EMAIL>
+</CD>
+
+<CD>
+<GROUP>Group 10</GROUP>
+<NAME>Marwin Subito</NAME>
+<POSITION>Developer</POSITION>
+<SEC_YEAR>BSIT-3D</SEC_YEAR>
+<AGE>26</AGE>
+<EMAIL>owthick@gmail.com</EMAIL>
+</CD>
+
+<CD>
+<GROUP>Group 10</GROUP>
+<NAME>Ruzel Borromeo</NAME>
+<POSITION>Developer</POSITION>
+<SEC_YEAR>BSIT-3D</SEC_YEAR>
+<AGE>20</AGE>
+<EMAIL>freakyruz@gmail.com</EMAIL>
+</CD>
+
+<CD>
+<GROUP>Group 10</GROUP>
+<NAME>Al Joseph Quizana</NAME>
+<POSITION>Developer</POSITION>
+<SEC_YEAR>BSIT-3D</SEC_YEAR>
+<AGE>22</AGE>
+<EMAIL>songoku@gmail.com</EMAIL>
+</CD>
+
+<CD>
+<GROUP>Group 10</GROUP>
+<NAME>John Gabriel Escolano</NAME>
+<POSITION>Developer</POSITION>
+<SEC_YEAR>BSIT-3D</SEC_YEAR>
+<AGE>20</AGE>
+<EMAIL>gabo@gmail.com</EMAIL>
+</CD>
+
+</catalog>
